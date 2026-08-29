@@ -3,11 +3,23 @@ import { FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 function FloatingActions() {
   return (
     <div className="mobile-float">
-      <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" className="float-btn secondary" aria-label="WhatsApp">
-        <FaWhatsapp />
+      <a
+        href="https://wa.me/918940218878"
+        target="_blank"
+        rel="noreferrer"
+        className="float-btn secondary"
+        aria-label="WhatsApp +91 8940218878"
+      >
+        <span className="float-icon">
+          <FaWhatsapp />
+        </span>
+        <span className="float-label">+91 8940218878</span>
       </a>
-      <a href="tel:+919876543210" className="float-btn" aria-label="Call">
-        <FaPhoneAlt />
+      <a href="tel:+918940218878" className="float-btn" aria-label="Call +91 8940218878">
+        <span className="float-icon">
+          <FaPhoneAlt />
+        </span>
+        <span className="float-label">+91 8940218878</span>
       </a>
     </div>
   );
