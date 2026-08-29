@@ -2,7 +2,7 @@ const tourPackages = [
   {
     id: 'madurai-local',
     destination: 'Madurai Local Tour',
-    days: '1 Day',
+    days: '1 Day / 250 km',
     description: 'Explore the cultural heart of Madurai with curated local sightseeing stops.',
     price: 1499,
     image:

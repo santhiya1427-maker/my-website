@@ -29,8 +29,9 @@ function ServicesSection() {
                 </div>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
-                <p>1 km</p>
-                <p>₹{service.price}</p>
+                <p>{service.km} {service.days}</p>
+                <p>Price : ₹{service.price}</p>
+                <p>Driver Peta : ₹{service.driverPata}</p>
               </article>
             );
           })}

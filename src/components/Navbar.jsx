@@ -63,20 +63,37 @@ function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="mobile-menu">
-          {navItems.map((item) => (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              className={({ isActive }) =>
-                `mobile-nav-link ${isActive ? 'active' : ''}`
-              }
-              onClick={closeMenu}
-            >
-              {item.label}
-            </NavLink>
-          ))}
-        </div>
+        <>
+          <button
+            type="button"
+            className="mobile-menu-overlay"
+            aria-label="Close mobile menu"
+            onClick={closeMenu}
+          />
+          <div className="mobile-menu">
+            {navItems.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                className={({ isActive }) =>
+                  `mobile-nav-link ${isActive ? 'active' : ''}`
+                }
+                onClick={closeMenu}
+              >
+                {item.label}
+              </NavLink>
+            ))}
+
+            <div className="mobile-menu-actions">
+              <NavLink to="/signup" className="mobile-menu-action secondary" onClick={closeMenu}>
+                Sign Up
+              </NavLink>
+              <NavLink to="/login" className="mobile-menu-action primary" onClick={closeMenu}>
+                Login
+              </NavLink>
+            </div>
+          </div>
+        </>
       )}
     </header>
   );
