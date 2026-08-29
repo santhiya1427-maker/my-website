@@ -13,13 +13,11 @@ function FloatingActions() {
         <span className="float-icon">
           <FaWhatsapp />
         </span>
-        <span className="float-label">+91 8940218878</span>
       </a>
       <a href="tel:+918940218878" className="float-btn" aria-label="Call +91 8940218878">
         <span className="float-icon">
           <FaPhoneAlt />
         </span>
-        <span className="float-label">+91 8940218878</span>
       </a>
     </div>
   );
