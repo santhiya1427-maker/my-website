@@ -34,9 +34,9 @@ function ContactPage() {
             <div style={{ marginBottom: '28px' }}>
               <h3 style={{ marginBottom: '16px', color: 'var(--secondary)' }}>Quick Contact</h3>
               <div className="contact-list" style={{ rowGap: '14px' }}>
-                <div><FaPhoneAlt /> <strong>Call us:</strong> +91 98765 43210</div>
-                <div><FaWhatsapp /> <strong>WhatsApp:</strong> +91 98765 43210</div>
-                <div><FaEnvelope /> <strong>Email:</strong> support@goridetaxi.com</div>
+                <div><FaPhoneAlt /> <strong>Call us:</strong> +91 8940218878</div>
+                <div><FaWhatsapp /> <strong>WhatsApp:</strong> +91 8940218878</div>
+                <div><FaEnvelope /> <strong>Email:</strong> mksamyeee@gmail.com</div>
                 <div><FaMapMarkerAlt /> <strong>Location:</strong> Madurai, Tamil Nadu, India</div>
               </div>
             </div>
