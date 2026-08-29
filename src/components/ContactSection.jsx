@@ -28,9 +28,9 @@ function ContactSection() {
           <span className="eyebrow accent">Contact</span>
           <h2>Let’s plan your next ride</h2>
           <div className="contact-list">
-            <div><FaPhoneAlt /> +91 98765 43210</div>
-            <div><FaWhatsapp /> +91 98765 43210</div>
-            <div><FaEnvelope /> support@goridetaxi.com</div>
+            <div><FaPhoneAlt /> +91 8940218878</div>
+            <div><FaWhatsapp /> +91 8940218878 </div>
+            <div><FaEnvelope /> mksamyeee@gmail.com</div>
             <div><FaMapMarkerAlt /> Madurai, Tamil Nadu, India</div>
           </div>
           <div className="map-placeholder">

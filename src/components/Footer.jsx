@@ -74,9 +74,9 @@ function Footer() {
         <div>
           <h3>Contact Information</h3>
           <ul className="footer-list contact-list">
-            <li><FaPhoneAlt /> +91 98765 43210</li>
-            <li><FaWhatsapp /> +91 98765 43210</li>
-            <li><FaEnvelope /> support@goridetaxi.com</li>
+            <li><FaPhoneAlt /> +91 8940218878</li>
+            <li><FaWhatsapp /> +91 8940218878</li>
+            <li><FaEnvelope /> mksamyeee@gmail.com</li>
             <li><FaMapMarkerAlt /> Madurai, Tamil Nadu, India</li>
           </ul>
         </div>

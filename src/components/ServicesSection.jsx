@@ -29,9 +29,8 @@ function ServicesSection() {
                 </div>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
-                <button type="button" className="btn btn-secondary">
-                  Explore
-                </button>
+                <p>1 km</p>
+                <p>₹{service.price}</p>
               </article>
             );
           })}
